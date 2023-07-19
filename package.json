@@ -1,0 +1,20 @@
+{
+  "name": "poc-yarn-workspaces",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "core/app",
+    "core/docs",
+    "app/utils",
+    "data/mocks",
+    "data/schemas",
+    "data/services",
+    "design/components",
+    "design/tokens"
+  ],
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
